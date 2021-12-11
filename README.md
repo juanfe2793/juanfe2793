@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Felipe Gomez</h1>
+<h1 align="center">Hi 👋, I'm Juan Felipe Gomez</h1>
 <h3 align="center">A SRE with 5 years of experience in the lifecycle of an IT Infrastructure on-premise and cloud. Currently, I work as a Site Reliability Engineer in the DevSecOps area, mainly with the AWS provider (standard and govcloud region).</h3>
 
 - Working at: **Twilio as Software Engineer - Containers**
@@ -8,8 +8,6 @@
 - 🔭 Focused on: **implementation of cloud architectures through Infrastructure as code, continuous engineering pipelines , Micro-services and container orchestration.**
 
 - 💬 Ask me about **DevOps and SRE culture in general :)**
-
-- 📄 Know about my experiences [https://www.linkedin.com/in/juangomez27/?locale=en_US](https://www.linkedin.com/in/juangomez27/?locale=en_US)
 
 - ⚡ Fun fact **Love motorcycles and F1 fan**
 
