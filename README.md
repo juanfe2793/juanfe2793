@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Juan Felipe Gomez</h1>
-<h3 align="center">A SRE/DevOps with 6 years of experience in the lifecycle of an IT Infrastructure on-premise and cloud. Currently, I work as a Software Engineer in Kubernetes Platform.</h3>
+<h3 align="center">A SRE/DevOps/software Engineer with 7 years of experience in the lifecycle of an IT Infrastructure on-premise and cloud. Currently, Focused in develop and deploy Kubernetes Platforms.</h3>
 
-- Working at: **Twilio as Software Engineer (L3) - Kubernetes Platform**
+- Working at: **Twilio as Staff, Software Engineer (L4)**
 
-- 🔭 Focused on: **implementation of cloud architectures through Infrastructure as code, continuous engineering pipelines , Micro-services and container orchestration (K8s).**
+- 🔭 Focused on: **implementation of cloud architectures through Infrastructure as code (IaC) and Infrastructure as Data (IaD), continuous engineering pipelines , Micro-services (containers) and Kubernetes as the control plane of the Infrastructure.**
 
 - 💬 Ask me about **DevOps and SRE culture in general :)**
 
