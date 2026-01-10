@@ -41,40 +41,14 @@ A robust GitOps workflow for managing API Gateway custom logic. This architectur
 
 The CI/CD pipeline is triggered by commits to the Plugin Monorepo. It builds and pushes JSON/YAML configurations to an S3 Config Bucket and Wasm/Lua binaries to an ECR Registry. At runtime, the Gateway Task initializes by fetching the latest configuration and plugins from these sources, ensuring that the running gateway always operates with the most current logic without requiring a full infrastructure redeploy.
 
-#### 💼 Experience
-
-#### Staff Software Engineer (L4) @ Twilio (2023 - Present)
-
-**High-Scale API Gateway & Cloud Native Domains:** Led the end-to-end design and implementation of a Kong-based Domain Gateway, successfully validated to handle **3.39M aggregate RPS**. This infrastructure serves as the critical entry point for next-gen platform services.
-
-**Reliability Engineering & Operational Excellence:** Hardened Ingress Gateways and led the migration to AWS Cloud WAN, improving service-to-service communication success rates from 96.3% to **99.9%+**. Drastically reduced incident volume to just **3 Sev3 incidents in 9 months**, achieving an **MTTA of <4 minutes** and **MTTR of ~1 hour**.
-
-**DNS Infrastructure Modernization:** Designed and implemented a centralized, agnostic DNS boundary supporting multi-cluster/multi-region service discovery. Executed a **zero-incident migration** of DNS resolution traffic, ensuring seamless continuity for critical internal services.
-
-**Security & Standardization:** Spearheaded the **Public Ingress Security** verification, establishing zero-trust patterns and strict compliance frameworks for exposing internal Kubernetes services to the public internet safely.
-
-**Developer Experience & Tooling:** Developed an automated `k6` and `Helm` based performance testing suite adopted by multiple teams, reducing complex load test setups to just **two commands**.
-
-#### Sr Software Engineer - Kubernetes Platform @ Twilio (2021 - 2023)
-
-- Implemented Observability for initial Twilio Kubernetes Services using Datadog. Providing a monitoring and alerting system for critical services.
-
-- Implemented and operated Argo CD for GitOps and automated rollouts for Kubernetes services. Ensured smooth and reliable updates to production environments.
-
-- Deployed and operated more than 50 Kubernetes clusters in multiple regions and environments, developing and maintaining Terraform modules for consistent and repeatable infrastructure.
-
-#### Site Reliability Engineer @ Adyton PBC (2020 - 2021)
-
-- Built CI/CD systems from scratch using Bazel, GitLab Pipelines, and ArgoCD.
-
-- Implemented robust infrastructure on AWS (Standard and GovCloud) for mission-critical services.
-
 
 ### 🛠️ Technologies & Tools
 
 Cloud & Infra: AWS, Terraform, Kubernetes (EKS), Docker, Helm.
 
-Connectivity: Kong API Gateway + plugins, Istio, Envoy, DNS (Route53).
+Connectivity: Kong API Gateway + custom plugins, Istio, Envoy, DNS (Route53).
+
+Public Ingress: LB Controller, external-dns, cert manager. 
 
 Observability: Datadog, Prometheus, Grafana, OpenTelemetry.
 
