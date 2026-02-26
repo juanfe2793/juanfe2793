@@ -4,16 +4,16 @@
 
 **Staff Software Engineer | Cloud Infrastructure & SRE | Kubernetes | Service Mesh & API Gateways**
 
-I am a Telematics Engineer with over 10 years of experience driving the lifecycle of Compute and Network infrastructure, from on-premise data centers to massive-scale cloud environments. Currently, I serve as a **Staff Software Engineer** in Twilio’s Platform Infrastructure Team, specializing in **AWS, Kubernetes, Service Communications, and Infrastructure as Code (Terraform)**.
+I am a Software Engineer with over 10 years of experience driving the lifecycle of Compute and Network infrastructure, from on-premise data centers to massive-scale cloud environments. Currently, I serve as a **Staff Software Engineer** in Twilio’s Platform Infrastructure Team, specializing in **AWS, Kubernetes, Service Communications and Mesh, Gateways (Ingress & API) and Infrastructure as Code (Terraform)**.
 
-I focus on designing resilient, high-traffic architectures, having led critical initiatives in **Cloud Native API Gateways (handling 3M+ RPS), Zero-Trust Connectivity, and Multi-Region DNS modernization**. My work emphasizes **reliability engineering**, **operational excellence**, and **strategic infrastructure leadership**.
+I focus on designing resilient, high-traffic architectures, having led critical initiatives in **Cloud Native API Gateways (handling 3M+ RPS), Service Meshing () Zero-Trust Connectivity, and Multi-Region DNS modernization**. My work emphasizes **reliability engineering**, **operational excellence**, and **strategic infrastructure leadership**.
 
 ---
 
 ## 🔭 Current Focus
 * **AI Integration:** Automating infrastructure processes and decision-making using AI in cloud environments. 
-* **Service Communication:** Improving performance and reliability via Service Mesh and API Gateways (Kong, Istio). 
-* **Resiliency, Reliability and Scalability:** Maximizing availability (99.99%+) for mission-critical platform services.
+* **Service Communication:** Improving performance and reliability via Service Mesh and API Gateways (Kong, Istio). Focusing in the enbalement of DDD architecture in Twilio
+* **Resiliency, Reliability and Scalability:** Maximizing availability (99.999%+) for mission-critical platform services.
 
 ---
 
@@ -46,12 +46,12 @@ The CI/CD pipeline is triggered by commits to the Plugin Monorepo. It builds and
 
 Cloud & Infra: AWS, Terraform, Kubernetes (EKS), Docker, Helm.
 
-Connectivity: Kong API Gateway + custom plugins, Istio, Envoy, DNS (Route53).
+Connectivity: Kong API Gateway + custom plugins, Istio, Envoy, DNS (Route53), AWS network stack.
 
 Public Ingress: LB Controller, external-dns, cert manager. 
 
 Observability: Datadog, Prometheus, Grafana, OpenTelemetry.
 
-CI/CD: ArgoCD, Jenkins, Buildkite.
+CI/CD: ArgoCD, Buildkite, Harness.
 
 Languages: Python, Go, HCL.
